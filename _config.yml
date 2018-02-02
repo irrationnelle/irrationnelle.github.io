@@ -9,7 +9,7 @@ subtitle:
 description: irrationnelle
 author: irrationnelle
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: fr-FR
+language: ko
 date_format: '%Y-%m-%d'
 
 # URL
@@ -225,7 +225,7 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
+  GitHub: https://github.com/irrationnelle
   Twitter: twitter
   Weibo: weibo
 
