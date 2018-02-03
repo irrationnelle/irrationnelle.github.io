@@ -6,7 +6,7 @@
 # Site
 title: irrationnelle
 subtitle:
-description: irrationnelle
+description:
 author: irrationnelle
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 'https://irrationnelle.github.io/'
+url:'https://irrationnelle.github.io/'
 baseurl:
 permalink: pretty
 
@@ -104,7 +104,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: true
+seo: false
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
@@ -117,8 +117,8 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories/
-  about: /about/
+  #categories: /categories/
+  #about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -231,8 +231,8 @@ social_icons:
 
 
 # Sidebar Avatar
-# in directory: /assets/images/avatar.jpg
-avatar:/assets/images/avatar.jpg
+# in directory: /assets/images/avatar.gif
+#avatar:
 
 
 # Table Of Contents in the Sidebar
@@ -379,8 +379,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname: irrationnelle
+  enable: false
+  shortname:
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -443,7 +443,7 @@ changyan:
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: false
+  ua_enable: true
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
