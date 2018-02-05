@@ -16,7 +16,7 @@ tags:
 
 `Jest`만 사용하는 경우, 켄트 백의 TDD 에서 볼 수 있는 유닛 테스트들은 가능하지만 React 컴포넌트가 잘 렌더링 되는지 props 값이 잘 전달되는지는 알 수 없다. 그래서 React 는 보통 `Jest`에 `enzyme`을 결합하여 테스트한다.
 
-# create-react-app 으로 테스트를 위한 컴포넌트 만들기기
+# create-react-app 로 컴포넌트 만들기
 
 먼저 `create-react-app` 으로 간단하게 프로젝트를 만든다.
 
@@ -56,7 +56,7 @@ $ npm i -D enzyme enzyme-adapter-react-16
 └── yarn.lock
 ```
 
-`./src/App.test.js`가 있어서 `npm run test`를 하면 알아서 테스트를 해준다.
+`./src/App.test.js`가 있어서 `npm run test`를 하면 알아서 테스트를 해주지만 우린 일단 `Jest`를 사용한다.
 
 이처럼 유닛 테스트를 위한 파일은 `파일명.test.js`라고 해주면 된다.
 
