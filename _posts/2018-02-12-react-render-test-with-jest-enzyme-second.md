@@ -89,4 +89,4 @@ describe('<Bar />', () => {
 
 위 테스트를 돌리면 의아한 점이 `props` 테스트인데, ~~**받는 `props`**를 테스트하는 게 아니라 **전달하는 `props`**를 테스트한다.~~ 뭔가 이상하긴 한데 좀 더 알아봐야겠다.
 
-그래서 **<Foo /> has number props** 는 테스트가 통과하는데 **<Bar /> has number props** 는 테스트가 실패한다. 기대값의 형태는 `number`인데 실제로 받은 값은 `undefined` 라고 나온다.
+그래서 **`<Foo />` has number props** 는 테스트가 통과하는데 **`<Bar />` has number props** 는 테스트가 실패한다. 기대값의 형태는 `number`인데 실제로 받은 값은 `undefined` 라고 나온다.
